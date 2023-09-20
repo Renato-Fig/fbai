@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@600;700&family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 400 1em 'Lexend', sans-serif;
+}
+
+body {
+    padding-top: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+    border: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #E4E4E4;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #00995140;
+  }
