@@ -58,22 +58,22 @@ export function LandingPage() {
                 </div>
                 <div className="list">
                     <div className="item">
-                        <i className="icon">Icon</i>
+                        {/*<i className="icon">Icon</i>*/}
                         <h4>Resumos Instantâneos</h4>
                         <p>FBAI produz resumos detalhados e precisos de tópicos específicos em questão de segundos.</p>
                     </div>
                     <div className="item">
-                        <i className="icon">Icon</i>
+                        {/*<i className="icon">Icon</i>*/}
                         <h4>Respostas Comentadas</h4>
                         <p>Com a FBAI, obtenha respostas comentadas que enriquecem sua compreensão do assunto.</p>
                     </div>
                     <div className="item">
-                        <i className="icon">Icon</i>
+                        {/*<i className="icon">Icon</i>*/}
                         <h4>Geração de Quiz</h4>
                         <p>FBAI é capaz de produzir quizzes para você testar seus conhecimentos.</p>
                     </div>
                     <div className="item">
-                        <i className="icon">Icon</i>
+                        {/*<i className="icon">Icon</i>*/}
                         <h4>Personalidade Customizável</h4>
                         <p>Adapte o estilo da assistente para atender às suas preferências pessoais</p>
                     </div>
