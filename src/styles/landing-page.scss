@@ -179,10 +179,18 @@
 
     #closing-argument {
         .image {
-            height: 300px;
+            height: 400px;
             width: 100%;
             background: linear-gradient(90deg, #009951, #019B83);
             border-radius: 20px;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            overflow: hidden;
+
+            img {
+                height: 120%;
+            }
         }
     }
 

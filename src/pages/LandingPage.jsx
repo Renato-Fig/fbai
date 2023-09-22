@@ -4,6 +4,13 @@ import LogoNavigation from '../assets/logo-navigation.png'
 import LogoFooter from '../assets/logo-footer.png'
 import USPImage from '../assets/usp-image.png'
 import HeroImage from '../assets/hero-image.png'
+import CAImage from '../assets/closing-argument-image.png'
+
+import { FaYoutube } from 'react-icons/fa'
+import { FaTwitter } from 'react-icons/fa'
+import { FaFacebookF } from 'react-icons/fa'
+import { FaLinkedinIn } from 'react-icons/fa'
+import { FaInstagram } from 'react-icons/fa'
 
 export function LandingPage() {
     return (
@@ -15,7 +22,7 @@ export function LandingPage() {
                         <li><a href="#unique-selling-proposition">O que é?</a></li>
                         <li><a href="#features">O que faz?</a></li>
                         <li><a href="#closing-argument">Por que usar?</a></li>
-                        <li><a href="call-to-action">Como usar?</a></li>
+                        <li><a href="#call-to-action">Como usar?</a></li>
                     </ul>
                 </nav>
                 <button>Experimente agora</button>
@@ -80,7 +87,7 @@ export function LandingPage() {
                     <p>Isso significa que, independentemente do seu nível de conhecimento, você poderá aprender de forma eficaz, sem complicações.</p>
                 </div>
                 <div className="image">
-
+                    <img src={CAImage} alt="" />
                 </div>
             </section>
 
@@ -116,27 +123,27 @@ export function LandingPage() {
                         <ul>
                             <li>
                                 <a href="https://www.instagram.com/fariasbrito" target='_blank'>
-                                    i
+                                    <FaInstagram />
                                 </a>
                             </li>
                             <li>
                                 <a href="#" target='_blank'>
-                                    i
+                                    <FaFacebookF />
                                 </a>
                             </li>
                             <li>
                                 <a href="#" target='_blank'>
-                                    i
+                                    <FaLinkedinIn />
                                 </a>
                             </li>
                             <li>
                                 <a href="#" target='_blank'>
-                                    i
+                                    <FaTwitter />
                                 </a>
                             </li>
                             <li>
                                 <a href="#" target='_blank'>
-                                    i
+                                    <FaYoutube />
                                 </a>
                             </li>
                         </ul>
