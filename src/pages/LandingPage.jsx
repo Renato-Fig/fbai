@@ -1,4 +1,5 @@
 import '../styles/landing-page.scss'
+import { useState } from 'react'
 
 import LogoNavigation from '../assets/logo-navigation.png'
 import LogoFooter from '../assets/logo-footer.png'
@@ -11,8 +12,16 @@ import { FaTwitter } from 'react-icons/fa'
 import { FaFacebookF } from 'react-icons/fa'
 import { FaLinkedinIn } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
+import { FaBars } from 'react-icons/fa'
 
 export function LandingPage() {
+    const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    }
+
+
     return (
         <div id='landing-page'>
             <header id='navigation'>
@@ -25,8 +34,30 @@ export function LandingPage() {
                         <li><a href="#call-to-action">Como usar?</a></li>
                     </ul>
                 </nav>
-                <button>Experimente agora</button>
+                <button className='primary-button'>Experimente agora</button>
+
+                <i className='menu-burger-button' onClick={toggleMenu}><FaBars /></i>
+
+
             </header>
+            {isMenuOpen ? (
+                <div className="menu-burger-component">
+                    <div className="container">
+
+                        <nav>
+                            <ul className="hamburger-menu-list">
+                                <li><a href="#unique-selling-proposition">O que é?</a></li>
+                                <li><a href="#features">O que faz?</a></li>
+                                <li><a href="#closing-argument">Por que usar?</a></li>
+                                <li><a href="#call-to-action">Como usar?</a></li>
+                                <li><button className='primary-btn'>Experimente agora</button></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            ) : null
+            }
 
             <section id='hero'>
                 <div className="content">
