@@ -1,5 +1,5 @@
 import '../styles/landing-page.scss'
-import { useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react';
 
 import LogoNavigation from '../assets/logo-navigation.png'
 import LogoFooter from '../assets/logo-footer.png'
@@ -13,6 +13,7 @@ import { FaFacebookF } from 'react-icons/fa'
 import { FaLinkedinIn } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
 import { FaBars } from 'react-icons/fa'
+import { FaTimes } from 'react-icons/fa'
 
 export function LandingPage() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -20,7 +21,6 @@ export function LandingPage() {
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     }
-
 
     return (
         <div id='landing-page'>
@@ -34,24 +34,24 @@ export function LandingPage() {
                         <li><a href="#call-to-action">Como usar?</a></li>
                     </ul>
                 </nav>
-                <button className='primary-button'>Experimente agora</button>
+                <a href="https://api.whatsapp.com/send?phone=558588686378" target='blank'><button className='primary-button'>Experimente agora</button></a>
 
                 <i className='menu-burger-button' onClick={toggleMenu}><FaBars /></i>
 
 
             </header>
             {isMenuOpen ? (
-                <div className="menu-burger-component">
+                <div className="menu-burger-component" >
                     <div className="container">
 
                         <nav>
                             <ul className="hamburger-menu-list">
-                                <li><a href="#unique-selling-proposition">O que é?</a></li>
-                                <li><a href="#features">O que faz?</a></li>
-                                <li><a href="#closing-argument">Por que usar?</a></li>
-                                <li><a href="#call-to-action">Como usar?</a></li>
-                                <li><button className='primary-btn'>Experimente agora</button></li>
-
+                                <li><i onClick={toggleMenu}><FaTimes /></i></li>
+                                <li><a href="#unique-selling-proposition" onClick={toggleMenu}>O que é?</a></li>
+                                <li><a href="#features" onClick={toggleMenu}>O que faz?</a></li>
+                                <li><a href="#closing-argument" onClick={toggleMenu}>Por que usar?</a></li>
+                                <li><a href="#call-to-action" onClick={toggleMenu}>Como usar?</a></li>
+                                <li><a href="https://api.whatsapp.com/send?phone=558588686378" target='blank'><button className='primary-btn'>Experimente agora</button></a></li>
                             </ul>
                         </nav>
                     </div>
@@ -63,7 +63,7 @@ export function LandingPage() {
                 <div className="content">
                     <h1>Sua nova assistente<br />pessoal de IA para<br /><em>a prova do Enem</em></h1>
                     <p>A FBAI é uma inteligência artificial treinada exclusivamente para responder a perguntas sobre o Enem, escrever resumos, fornecer questões e dar dicas de estudos, tudo diretamente no seu WhatsApp. É fácil e simples de usar.</p>
-                    <button>Experimente agora</button>
+                    <a href="https://api.whatsapp.com/send?phone=558588686378" target='blank'><button>Experimente agora</button></a>
                 </div>
                 <div className="image">
                     <img src={HeroImage} alt="" />
@@ -128,8 +128,8 @@ export function LandingPage() {
                     <h2>Descubra a facilidade de usar a FBAI para sua preparação do Enem</h2>
                     <p>Inicie a conversa agora mesmo com a nossa assistente de IA e potencialize sua preparação para o Enem. O futuro do seu sucesso acadêmico está a apenas uma mensagem de distância.</p>
                     <div className="cta-btns">
-                        <button className="primary-btn">Experimente agora</button>
-                        <button className="secondary-btn">Entre em contato</button>
+                        <a href="https://api.whatsapp.com/send?phone=558588686378" target='blank'><button className="primary-btn">Experimente agora</button></a>
+                        {/*<button className="secondary-btn">Entre em contato</button>*/}
                     </div>
                 </div>
                 <div className="image">
