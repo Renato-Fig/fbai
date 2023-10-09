@@ -37,19 +37,6 @@ export function LandingPage() {
                 <a href="https://api.whatsapp.com/send?phone=5585988686378&text=Olá%20Guru!%20Me%20passa%20umas%20dicas%20sobre%20o%20que%20eu%20devo%20estudar%20nessa%20reta%20final%20para%20o%20ENEM!%20" target='blank'><button className='primary-button'>Experimente agora</button></a>
 
                 <i className='menu-burger-button' onClick={toggleMenu}><FaBars /></i>
-                <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11366505945">
-                </script>
-                <!-- Google tag (gtag.js) -->
-                <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11366505945">
-                </script>
-                <script>
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-
-                    gtag('config', 'AW-11366505945');
-                </script>
-
             </header>
             {isMenuOpen ? (
                 <div className="menu-burger-component" >
