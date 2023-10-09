@@ -66,7 +66,10 @@ export function LandingPage() {
                     <a href="https://api.whatsapp.com/send?phone=5585988686378&text=Olá%20Guru!%20Me%20passa%20umas%20dicas%20sobre%20o%20que%20eu%20devo%20estudar%20nessa%20reta%20final%20para%20o%20ENEM!%20" target='blank'><button>Experimente agora</button></a>
                 </div>
                 <div className="image">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/D0UnqGm_miA?si=WMdgTFPVWLa0S_zp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    {/* 
                     <img src={HeroImage} alt="" />
+                    */}
                 </div>
             </section>
 
