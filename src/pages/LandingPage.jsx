@@ -35,7 +35,7 @@ export function LandingPage() {
                     </ul>
                 </nav>
                 <div className="cta-btns">
-                    <a href="https://clkdmg.site/subscribe/enem-guru" target='blank'><button className="secondary-btn">Assine por R$ 19,99</button></a>
+                    <a href="https://clkdmg.site/subscribe/enem-guru" target='blank'><button className="secondary-btn">Assine por R$ 19,90</button></a>
 
                     <a href="https://api.whatsapp.com/send?phone=5585988686378&text=Olá%20Guru!%20Me%20passa%20umas%20dicas%20sobre%20o%20que%20eu%20devo%20estudar%20nessa%20reta%20final%20para%20o%20ENEM!%20" target='blank'><button className='primary-button'>Experimente grátis</button></a>
                 </div>
@@ -54,7 +54,7 @@ export function LandingPage() {
                                 <li><a href="#closing-argument" onClick={toggleMenu}>Por que usar?</a></li>
                                 <li><a href="#call-to-action" onClick={toggleMenu}>Como usar?</a></li>
                                 <li><a href="https://api.whatsapp.com/send?phone=5585988686378&text=Olá%20Guru!%20Me%20passa%20umas%20dicas%20sobre%20o%20que%20eu%20devo%20estudar%20nessa%20reta%20final%20para%20o%20ENEM!%20" target='blank'><button className='primary-btn'>Experimente grátis</button></a></li>
-                                <li><a href="https://clkdmg.site/subscribe/enem-guru" target='blank'><button className="secondary-btn">Assine por R$ 19,99</button></a></li>
+                                <li><a href="https://clkdmg.site/subscribe/enem-guru" target='blank'><button className="secondary-btn">Assine por R$ 19,90</button></a></li>
                             </ul>
                         </nav>
                     </div>
@@ -68,7 +68,7 @@ export function LandingPage() {
                     <p>O Enem Guru é uma inteligência artificial treinada exclusivamente para responder a perguntas sobre o Enem, escrever resumos, fornecer questões e dar dicas de estudos, tudo diretamente no seu WhatsApp. É fácil e simples de usar.</p>
                     <div className="cta-btns">
                         <a href="https://api.whatsapp.com/send?phone=5585988686378&text=Olá%20Guru!%20Me%20passa%20umas%20dicas%20sobre%20o%20que%20eu%20devo%20estudar%20nessa%20reta%20final%20para%20o%20ENEM!%20" target='blank'><button className='primary-btn'>Experimente grátis</button></a>
-                        <a href="https://clkdmg.site/subscribe/enem-guru" target='blank'><button className="secondary-btn">Assine já por R$ 19,99</button></a>
+                        <a href="https://clkdmg.site/subscribe/enem-guru" target='blank'><button className="secondary-btn">Assine já por R$ 19,90</button></a>
                     </div>
                 </div>
                 <div className="image">
@@ -138,7 +138,7 @@ export function LandingPage() {
                     <p>Inicie a conversa agora mesmo com o nosso assistente de IA e potencialize sua preparação para o Enem. O futuro do seu sucesso acadêmico está a apenas uma mensagem de distância.</p>
                     <div className="cta-btns">
                         <a href="https://api.whatsapp.com/send?phone=5585988686378&text=Olá%20Guru!%20Me%20passa%20umas%20dicas%20sobre%20o%20que%20eu%20devo%20estudar%20nessa%20reta%20final%20para%20o%20ENEM!%20" target='blank'><button className="primary-btn">Experimente grátis</button></a>
-                        <a href="https://clkdmg.site/subscribe/enem-guru" target='blank'><button className="secondary-btn">Assine já por R$ 19,99</button></a>
+                        <a href="https://clkdmg.site/subscribe/enem-guru" target='blank'><button className="secondary-btn">Assine já por R$ 19,90</button></a>
                         {/*<button className="secondary-btn">Entre em contato</button>*/}
                     </div>
                 </div>
