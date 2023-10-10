@@ -109,10 +109,22 @@
             }
         }
 
+        .cta-btns {
+            display: flex;
+            flex-direction: row;
+            gap: 12px;
+        }
+
         .primary-button {
             //background: linear-gradient(90deg, #009951, #019B83);
             background-color: #0DC143;
             color: #FFF;
+        }
+
+        .secondary-btn {
+            background-color: transparent;
+            border: 1px solid #0B993550;
+            color: #0B9935;
         }
 
         .menu-burger-button {
@@ -154,18 +166,36 @@
 
         .primary-btn {
             //background: linear-gradient(90deg, #009951, #019B83);
-            background: linear-gradient(90deg, #0DC143, #0B9935);
-            //background-color: #05D544;
+            //background: linear-gradient(90deg, #0DC143, #0B9935);
+            background-color: #FFF;
             border: 1px solid #FFFFFF30;
+            color: #0DC143;
+        }
+
+        .secondary-btn {
+            background-color: transparent;
+            border: 1px solid #FFFFFF50;
             color: #FFF;
         }
+        
     }
 
     #hero {
         .content {
-            button {
+            .cta-btns {
+                display: flex;
+                flex-direction: row;
+                gap: 15px;
+            }
+            .primary-btn {
                 background: linear-gradient(90deg, #0DC143, #0B9935);
                 color: #FFF;
+            }
+
+            .secondary-btn {
+                background-color: transparent;
+            border: 1px solid #0B993550;
+            color: #0B9935;
             }
         }
 
@@ -275,8 +305,8 @@
             }
 
             .secondary-btn {
-                background: linear-gradient(90deg, #009951, #0B9935);
-                border: 1px solid #FFFFFF30;
+                background-color: transparent;
+                border: 1px solid #FFFFFF50;
                 color: #FFF;
             }
         }
@@ -352,6 +382,10 @@
         #hero {
             .image {
                 height: 300px;
+            }
+
+            .cta-btns {
+                flex-direction: column;
             }
         }
 

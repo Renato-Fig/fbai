@@ -34,7 +34,11 @@ export function LandingPage() {
                         <li><a href="#call-to-action">Como usar?</a></li>
                     </ul>
                 </nav>
-                <a href="https://api.whatsapp.com/send?phone=5585988686378&text=Olá%20Guru!%20Me%20passa%20umas%20dicas%20sobre%20o%20que%20eu%20devo%20estudar%20nessa%20reta%20final%20para%20o%20ENEM!%20" target='blank'><button className='primary-button'>Experimente agora</button></a>
+                <div className="cta-btns">
+                    <a href="https://clkdmg.site/subscribe/enem-guru" target='blank'><button className="secondary-btn">Assine por R$ 19,99</button></a>
+
+                    <a href="https://api.whatsapp.com/send?phone=5585988686378&text=Olá%20Guru!%20Me%20passa%20umas%20dicas%20sobre%20o%20que%20eu%20devo%20estudar%20nessa%20reta%20final%20para%20o%20ENEM!%20" target='blank'><button className='primary-button'>Experimente grátis</button></a>
+                </div>
 
                 <i className='menu-burger-button' onClick={toggleMenu}><FaBars /></i>
             </header>
@@ -49,7 +53,8 @@ export function LandingPage() {
                                 <li><a href="#features" onClick={toggleMenu}>O que faz?</a></li>
                                 <li><a href="#closing-argument" onClick={toggleMenu}>Por que usar?</a></li>
                                 <li><a href="#call-to-action" onClick={toggleMenu}>Como usar?</a></li>
-                                <li><a href="https://api.whatsapp.com/send?phone=5585988686378&text=Olá%20Guru!%20Me%20passa%20umas%20dicas%20sobre%20o%20que%20eu%20devo%20estudar%20nessa%20reta%20final%20para%20o%20ENEM!%20" target='blank'><button className='primary-btn'>Experimente agora</button></a></li>
+                                <li><a href="https://api.whatsapp.com/send?phone=5585988686378&text=Olá%20Guru!%20Me%20passa%20umas%20dicas%20sobre%20o%20que%20eu%20devo%20estudar%20nessa%20reta%20final%20para%20o%20ENEM!%20" target='blank'><button className='primary-btn'>Experimente grátis</button></a></li>
+                                <li><a href="https://clkdmg.site/subscribe/enem-guru" target='blank'><button className="secondary-btn">Assine por R$ 19,99</button></a></li>
                             </ul>
                         </nav>
                     </div>
@@ -61,11 +66,14 @@ export function LandingPage() {
                 <div className="content">
                     <h1>Seu novo assistente<br />pessoal de IA para<br /><em>a prova do Enem</em></h1>
                     <p>O Enem Guru é uma inteligência artificial treinada exclusivamente para responder a perguntas sobre o Enem, escrever resumos, fornecer questões e dar dicas de estudos, tudo diretamente no seu WhatsApp. É fácil e simples de usar.</p>
-                    <a href="https://api.whatsapp.com/send?phone=5585988686378&text=Olá%20Guru!%20Me%20passa%20umas%20dicas%20sobre%20o%20que%20eu%20devo%20estudar%20nessa%20reta%20final%20para%20o%20ENEM!%20" target='blank'><button>Experimente agora</button></a>
+                    <div className="cta-btns">
+                        <a href="https://api.whatsapp.com/send?phone=5585988686378&text=Olá%20Guru!%20Me%20passa%20umas%20dicas%20sobre%20o%20que%20eu%20devo%20estudar%20nessa%20reta%20final%20para%20o%20ENEM!%20" target='blank'><button className='primary-btn'>Experimente grátis</button></a>
+                        <a href="https://clkdmg.site/subscribe/enem-guru" target='blank'><button className="secondary-btn">Assine já por R$ 19,99</button></a>
+                    </div>
                 </div>
                 <div className="image">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/vGtxMCTe5nc?si=bezWuGD3e6MM9Pnq?&autoplay=1&mute=1&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                {/* 
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vGtxMCTe5nc?si=bezWuGD3e6MM9Pnq?&autoplay=1&mute=1&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    {/* 
                     <img src={HeroImage} alt="" />
                     */}
                 </div>
@@ -129,7 +137,8 @@ export function LandingPage() {
                     <h2>Descubra a facilidade de usar o Enem Guru para sua preparação do Enem</h2>
                     <p>Inicie a conversa agora mesmo com o nosso assistente de IA e potencialize sua preparação para o Enem. O futuro do seu sucesso acadêmico está a apenas uma mensagem de distância.</p>
                     <div className="cta-btns">
-                        <a href="https://api.whatsapp.com/send?phone=5585988686378&text=Olá%20Guru!%20Me%20passa%20umas%20dicas%20sobre%20o%20que%20eu%20devo%20estudar%20nessa%20reta%20final%20para%20o%20ENEM!%20" target='blank'><button className="primary-btn">Experimente agora</button></a>
+                        <a href="https://api.whatsapp.com/send?phone=5585988686378&text=Olá%20Guru!%20Me%20passa%20umas%20dicas%20sobre%20o%20que%20eu%20devo%20estudar%20nessa%20reta%20final%20para%20o%20ENEM!%20" target='blank'><button className="primary-btn">Experimente grátis</button></a>
+                        <a href="https://clkdmg.site/subscribe/enem-guru" target='blank'><button className="secondary-btn">Assine já por R$ 19,99</button></a>
                         {/*<button className="secondary-btn">Entre em contato</button>*/}
                     </div>
                 </div>
